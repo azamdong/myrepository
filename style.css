@@ -1,0 +1,74 @@
+.teks-dosen {
+  text-align: center;
+}
+.text-color-yellow {
+  color: #ffff00;
+}
+
+.dropdown-item:hover {
+  background-color: #6767b1;
+  /* Ubah warna latar belakang sesuai kebutuhan */
+}
+
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0.125em;
+  margin-left: 0.125em;
+}
+
+.dropend:hover > .dropdown-menu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+.dropdown .dropdown-menu {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .dropend:hover > .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+}
+
+/* banner */
+
+.masthead {
+  background-size: cover;
+  min-height: 300px;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 768px) {
+  .masthead {
+    min-height: 300px;
+  }
+
+  .custom-card1 {
+    max-width: 460px;
+  }
+
+  h1 {
+    font-size: calc(1.525rem + 3.3vw);
+  }
+  h2 {
+    font-size: calc(0.525rem + 0.3vw);
+  }
+  h3 {
+    font-size: calc(1.525rem + 3.3vw);
+  }
+}
